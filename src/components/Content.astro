@@ -1,0 +1,129 @@
+---
+import "../styles/global.css";
+import imLogo from  '../assets/indimakers-logo.png'
+import codeinLogo from  '../assets/codein-logo.png'
+import { Image } from 'astro:assets';
+import { Icon } from 'astro-icon/components';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<section class="flex flex-col w-full h-full gap-16 min-w-2xs max-w-4xl w-full">
+
+    
+    <div class="flex flex-col gap-3">
+        <h3 class="font-extrabold text-3xl mr-auto">Projects I’m working on</h3>
+        <p class="text-md mr-auto mb-2 text-zinc-700">
+            These are the projects I’m currently engaged with. They highlight the work I’m passionate about, 
+            the problems I’m tackling, and the experiments I’m running to push my skills and creativity further.
+        </p>
+        <div class="flex-flex-col bg-teal-400 text-zinc-600 rounded-lg w-full">
+    
+            <div class="flex flex-col bg-zinc-900 text-white rounded-lg p-4 gap-3">
+                
+                <div class="flex items-center gap-2 flex-wrap">
+                    <Image class="rounded-md object-cover w-8 h-8" width={1280} height={1280} src={imLogo} alt="IndieMakers Logo" />
+                    <span class="text-lg font-extrabold">IndieMakers</span>
+                    <span class="text-red-400"><Icon name="fire_fill" size="18"/></span>
+
+                    <div class="flex flex-nowrap justify-between flex-1">
+
+                        <div class="rounded-md bg-orange-300 flex items-center gap-1">
+                            <div class="flex items-center justify-center rounded-md bg-orange-500 w-6 h-6 flex-nowrap">
+                                <Icon name="schedule_line" size="18"/>
+                            </div>
+                            <span class="pr-1 text-sm font-bold text-zinc-800 whitespace-nowrap">Private beta</span>
+                        </div>
+                        <HeaderLink 
+                            class="rounded-md bg-zinc-800 flex items-center gap-1 ml-auto flex-nowrap"
+                            href="https://github.com/rafitajaen/indiemakers"
+                        >
+                            <div class="flex items-center justify-center rounded-md bg-blue-500 w-6 h-6 flex-nowrap">
+                                <Icon name="github_line" size="18"/>
+                            </div>
+                            <span class="pr-1 text-sm font-bold">OpenSource</span>
+                        </HeaderLink>
+                    </div>
+    
+                </div>
+                <span>
+                    Community platform for solopreneurs 
+                    and indie makers to showcase products, share resources, and get feedback. 
+                </span>
+    
+            </div>
+    
+            <span class="pl-4 py-2 inline-block text-zinc-800">on <u>Indie Communities</u></span>
+        </div>
+    
+        <div class="flex-flex-col bg-teal-400 text-zinc-600 rounded-lg w-full">
+    
+            <div class="flex flex-col bg-zinc-900 text-white rounded-lg p-4 gap-3">
+                
+                <div class="flex items-center gap-2 flex-wrap">
+                    <Image class="rounded-md object-cover w-8 h-8" width={1280} height={1280} src={codeinLogo} alt="CodeIn Logo" />
+                    <span class="text-lg font-extrabold">CodeIn</span>
+                    <span class="text-blue-400"><Icon name="test_tube_fill" size="18"/></span>
+
+                    <div class="flex flex-nowrap justify-between flex-1">
+
+                        <div class="rounded-md bg-lime-300 flex items-center gap-1">
+                            <div class="flex items-center justify-center rounded-md bg-lime-500 w-6 h-6">
+                                <Icon name="factory_line" size="18"/>
+                            </div>
+                            <span class="pr-1 text-sm font-bold text-zinc-800">Building</span>
+                        </div>
+                        <HeaderLink 
+                            class="rounded-md bg-zinc-800 flex items-center gap-1 ml-auto"
+                            href="https://github.com/rafitajaen/codein"
+                        >
+                            <div class="flex items-center justify-center rounded-md bg-blue-500 w-6 h-6">
+                                <Icon name="github_line" size="18"/>
+                            </div>
+                            <span class="pr-1 text-sm font-bold">OpenSource</span>
+                        </HeaderLink>
+                    </div>
+    
+                </div>
+                
+                <span>
+                    A job board for programmers to share and discover tech opportunities. 
+                </span>
+    
+            </div>
+    
+            <span class="pl-4 py-2 inline-block text-zinc-800">on <u>Job Boards</u></span>
+        </div>
+
+    </div>
+
+    <div class="flex flex-col gap-3">
+
+        <h3 class="font-extrabold text-3xl mr-auto">Goals: Growing & Going</h3>
+        <p class="text-md mr-auto mb-2 text-zinc-700">
+            Here’s a peek at what I’m focusing on these days—projects, ideas, and challenges that keep me moving forward.
+            Nothing too serious, just the things I’m exploring, building, and hoping to achieve in the near future.
+        </p>
+
+        <div class="flex flex-col bg-zinc-900 text-white rounded-lg p-4 gap-1">
+            <span class="text-lg font-extrabold">Followers on X</span>
+            <div class="flex items-center justify-between gap-4 pb-6">
+
+                <div class="w-full bg-zinc-700 rounded-full h-5 mx-1 text-sm">
+                    <div class="bg-indigo-700 h-5 rounded-full" style="width: 29%;"></div>
+                    <span class="text-zinc-400">
+                        <strong class="text-zinc-100">29</strong> of 100 followers goal (29%)
+                    </span>
+                </div>
+                <HeaderLink 
+                    class="rounded-md bg-indigo-700 flex items-center gap-1 ml-auto py-2 px-4 flex-nowrap"
+                    href="https://x.com/rafitajaen?follow=true"
+                >
+                    <Icon name="social_x_line" size="24"/>
+                    <span class="pr-1 text-md font-bold whitespace-nowrap">Follow me</span>
+                </HeaderLink>
+            </div>
+
+        </div>
+    </div>
+
+</section>
