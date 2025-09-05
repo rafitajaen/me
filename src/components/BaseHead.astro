@@ -3,7 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
-import FallbackImage from '../assets/hero.png';
+import FallbackImage from '../assets/connect.png';
 import { SITE_TITLE } from '../consts';
 
 interface Props {
@@ -42,6 +42,9 @@ const { title, description, image = FallbackImage } = Astro.props;
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="author" content="Rafael Jaén" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#45E0A8" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
