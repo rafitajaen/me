@@ -1,0 +1,58 @@
+---
+import hero from "../assets/hero.png";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+const iconClass = "overflow-hidden transition-all text-zinc-900/60 dark:text-zinc-100/60 hover:text-zinc-900/100 dark:hover:text-zinc-100/100";
+---
+
+<header class="container mx-auto max-w-2xl p-4 animate-fade-in-blur sticky top-0 z-20 rounded-md backdrop-blur-sm">
+    
+    <div class="flex items-center justify-between gap-4 flex-wrap">
+
+        <button id="theme" class="hover:cursor-pointer rotate-356 flex items-baseline gap-4 min-w-12">
+                <Image
+                    class="h-12 w-12 rounded-md border border-gray-200 bg-blue-300 transition-all duration-300 ease-in-out hover:scale-90 dark:bg-yellow-300"
+                    width={1280}
+                    height={1280}
+                    src={hero}
+                    alt="Rafael Jaén Profile"
+                />
+        </button>
+
+        <!-- <div class="flex items-center gap-4">
+            <button
+                data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive btn-inner-shadow hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-10 cursor-pointer p-0 transition-all duration-300 active:scale-95"
+                type="button"
+                aria-label="Toggle theme"
+            >
+                <Icon name="sun-moon" size="18" />
+            </button>
+        </div> -->
+
+        <div class="flex flex-row flex-wrap gap-4">
+  
+            <a target="_blank" class={iconClass} href="https://github.com/rafitajaen"><Icon name="github" size="16" /></a>
+            <a target="_blank" class={iconClass} href="https://x.com/rafitajaen"><Icon name="x" size="16" /></a>
+            <a target="_blank" class={iconClass} href="https://linkedin.com/in/rafitajaen"><Icon name="linkedin" size="16" /></a>
+        </div>
+
+    </div>
+</header>
+
+<script is:inline>
+  const toggle = document.getElementById('theme');
+  const root = document.documentElement;
+
+  // Si el usuario ya tiene preferencia guardada
+  if (localStorage.theme === 'dark') {
+    root.classList.add('dark');
+  } else if (localStorage.theme === 'light') {
+    root.classList.remove('dark');
+  }
+
+  toggle.addEventListener('click', () => {
+    const isDark = root.classList.toggle('dark');
+    localStorage.theme = isDark ? 'dark' : 'light';
+  });
+</script>

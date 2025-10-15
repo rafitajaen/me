@@ -1,0 +1,33 @@
+---
+import { Icon } from "astro-icon/components";
+
+const linkClass = "text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors";
+const iconClass = "overflow-hidden transition-all text-zinc-900/60 dark:text-zinc-100/60 hover:text-zinc-900/100 dark:hover:text-zinc-100/100";
+const buttonClass = "hover:cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background btn-inner-shadow hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 inset-shadow-indigo-500";
+---
+
+<div class="flex flex-col gap-2">
+
+  <h1 class="text-xl font-medium tracking-tight mb-4 flex flex-wrap items-baseline">
+    Hi, I'm Rafael — <span class="text-secondary">A Full Stack web developer.</span>
+  </h1>
+
+  <p class="text-sm text-zinc-600 dark:text-zinc-400 max-w-xl">
+      Welcome to my little corner of the internet. <br>I’m an software engineer and indie maker from Andalucía, Spain. <br>Currently building in public 
+    <a href="https://codeinspain.com" target="_blank" rel="noopener noreferrer" class={linkClass}>codeinspain</a>
+    <span> and </span>
+    <a href="https://indiemakers.io" target="_blank" rel="noopener noreferrer" class={linkClass}>indiemakers.io</a>.
+  </p>
+
+  <div class="flex flex-col gap-5">
+  
+    <div class="mt-8 flex flex-wrap gap-2">
+      <!-- <a class={buttonClass} href="/resume"><Icon name="resume" size="18" />Resume | CV</a> -->
+      <!-- <a class={buttonClass + " bg-zinc-900 text-white dark:text-zinc-900 dark:bg-white"} href="/contact"><Icon name="plane" size="18" />Get in touch</a> -->
+      <a class={buttonClass} href="https://x.com/rafitajaen"><Icon name="x" size="18" />Follow me on X</a>
+      <a class={buttonClass + " bg-zinc-900 text-white dark:text-zinc-900 dark:bg-white"} href="https://github.com/rafitajaen/me"><Icon name="github" size="18" />Show me the code!</a>
+    </div>
+  
+  </div>
+
+</div>
