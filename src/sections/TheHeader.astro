@@ -41,17 +41,18 @@ const iconClass = "overflow-hidden transition-all text-zinc-900/60 dark:text-zin
 </header>
 
 <script is:inline>
-  const toggle = document.getElementById('theme');
-  const root = document.documentElement;
 
-  // Si el usuario ya tiene preferencia guardada
-  if (localStorage.theme === 'dark') {
-    root.classList.add('dark');
-  } else if (localStorage.theme === 'light') {
-    root.classList.remove('dark');
+  const root = document.documentElement;
+  const stored = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (stored === "dark" || (!stored && prefersDark)) {
+    root.classList.add("dark");
+  } else {
+    root.classList.remove("dark");
   }
 
-  toggle.addEventListener('click', () => {
+  document.getElementById('theme').addEventListener('click', () => {
     const isDark = root.classList.toggle('dark');
     localStorage.theme = isDark ? 'dark' : 'light';
   });
