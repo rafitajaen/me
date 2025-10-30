@@ -12,7 +12,16 @@ import icon from 'astro-icon';
 export default defineConfig({
   site: 'https://rafita.me',
   // base: '/me',
-  integrations: [mdx(), sitemap(), icon()],
+  integrations: 
+  [
+    mdx(), 
+    sitemap({
+      changefreq: 'weekly',
+      priority: 1.0,
+      lastmod: new Date(), //new Date('2025-10-30'),
+    }), 
+    icon()
+  ],
 
   vite: {
     plugins: [tailwindcss()],
