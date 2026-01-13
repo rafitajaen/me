@@ -1,4 +1,8 @@
-{
+export default {
+  "seo": {
+    "title": "Rafael Jaén | Full Stack Developer",
+    "description": "Welcome to my personal website. I'm a Full Stack Developer from Spain, passionate about building digital products."
+  },
   "profile": {
     "name": "Rafael Jaén Profile",
     "avatar": "/hero.png",
@@ -31,14 +35,14 @@
       "description": "Weekly newsletter and blog for .NET developers. I share tutorials, tools, and updates that help you code smarter, ship faster, and grow your skills with clear, practical content.",
       "stack": "Typescript | Astro | Listmonk | .NET"
     },
-    {
-      "name": "indiemakers<span class=\"text-zinc-500 font-light\">.io</span>",
-      "status": "Private beta",
-      "statusColor": "orange",
-      "url": null,
-      "description": "Community platform for solopreneurs and indie makers to showcase products, share resources, and get feedback.",
-      "stack": "Typescript | .NET | MVC | Postgres | Docker"
-    }
+    // {
+    //   "name": "indiemakers<span class=\"text-zinc-500 font-light\">.io</span>",
+    //   "status": "Private beta",
+    //   "statusColor": "orange",
+    //   "url": null,
+    //   "description": "Community platform for solopreneurs and indie makers to showcase products, share resources, and get feedback.",
+    //   "stack": "Typescript | .NET | MVC | Postgres | Docker"
+    // }
   ],
   "experience": [
     {
