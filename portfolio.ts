@@ -20,9 +20,17 @@ export default {
   },
   "projects": [
     {
+      "name": "open<span class=\"text-emerald-600\">to</span>dev<span class=\"text-zinc-500 font-light\">.com</span>",
+      "status": "Beta",
+      "statusColor": "orange",
+      "url": "https://opentodev.com",
+      "description": "A platform designed to help developers find jobs that truly fit their skills and ambitions using smart filters. Beyond listings, we offer tools for interview prep and personal branding, connecting you with companies that value your expertise.",
+      "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | MJML | Docker"
+    },
+    {
       "name": "code<span class=\"text-emerald-400\">in</span>spain<span class=\"text-zinc-500 font-light\">.com</span>",
-      "status": "Launched",
-      "statusColor": "emerald",
+      "status": "Beta",
+      "statusColor": "orange",
       "url": "https://codeinspain.com/?ref=rafita.me",
       "description": "A selective tech job board for Spain’s developer community. I highlight only the positions that meet clear standards of transparency, culture, and growth potential. Spend less time searching and more time advancing your career.",
       "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | MJML | Docker"
