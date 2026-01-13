@@ -40,7 +40,11 @@ const iconClass =
     <div class="flex flex-row flex-wrap gap-4">
       {
         profile.socialLinks.map((link) => (
-          <ExternalLink class={iconClass} href={link.url}>
+          <ExternalLink
+            class={iconClass}
+            href={link.url}
+            aria-label={`${link.name} profile`}
+          >
             <Icon name={link.name} size="16" />
           </ExternalLink>
         ))
