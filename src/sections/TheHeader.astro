@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
+import ExternalLink from "../components/ExternalLink.astro";
 import portfolio from "../../portfolio.ts";
 const { profile } = portfolio;
 const iconClass =
@@ -35,9 +36,9 @@ const iconClass =
     <div class="flex flex-row flex-wrap gap-4">
       {
         profile.socialLinks.map((link) => (
-          <a target="_blank" class={iconClass} href={link.url}>
+          <ExternalLink class={iconClass} href={link.url}>
             <Icon name={link.name} size="16" />
-          </a>
+          </ExternalLink>
         ))
       }
     </div>

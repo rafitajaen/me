@@ -1,3 +1,5 @@
+export const ref = "rafita.me";
+
 export default {
   "seo": {
     "title": "Rafael Jaén | Full Stack Developer",
@@ -7,7 +9,7 @@ export default {
     "name": "Rafael Jaén Profile",
     "avatar": "/hero.png",
     "title": "Hi, I'm Rafael — <span class=\"text-secondary\">A Full Stack web developer.</span>",
-    "description": "Welcome to my little corner of the internet.<br>I’m a software engineer and indie maker from Andalucía, Spain.<br>Currently building in public <a href=\"https://codeinspain.com?ref=rafita.me\" target=\"_blank\" class=\"text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors\">codeinspain</a> and <a href=\"https://dotnet.today?ref=rafita.me\" target=\"_blank\" class=\"text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors\">dotnet.today</a>.",
+    "description": `Welcome to my little corner of the internet.<br>I’m a software engineer and indie maker from Andalucía, Spain.<br>Currently building in public <a href="https://codeinspain.com?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">codeinspain</a> and <a href="https://dotnet.today?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">dotnet.today</a>.`,
     "socialLinks": [
       { "name": "github", "url": "https://github.com/rafitajaen" },
       { "name": "x", "url": "https://x.com/rafitajaen" },
@@ -33,13 +35,13 @@ export default {
       "statusColor": "orange",
       "url": "https://opentodev.com",
       "description": "A platform designed to help developers find jobs that truly fit their skills and ambitions using smart filters. Beyond listings, we offer tools for interview prep and personal branding, connecting you with companies that value your expertise.",
-      "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | MJML | Docker"
+      "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | RabbitMQ | MJML | Docker"
     },
     {
       "name": "code<span class=\"text-emerald-400\">in</span>spain<span class=\"text-zinc-500 font-light\">.com</span>",
       "status": "Beta",
       "statusColor": "orange",
-      "url": "https://codeinspain.com/?ref=rafita.me",
+      "url": `https://codeinspain.com`,
       "description": "A selective tech job board for Spain’s developer community. I highlight only the positions that meet clear standards of transparency, culture, and growth potential. Spend less time searching and more time advancing your career.",
       "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | MJML | Docker"
     },
@@ -47,7 +49,7 @@ export default {
       "name": "dotnet<span class=\"text-zinc-500 font-light\">.today</span>",
       "status": "Launched",
       "statusColor": "emerald",
-      "url": "https://dotnet.today/?ref=rafita.me",
+      "url": `https://dotnet.today`,
       "description": "Weekly newsletter and blog for .NET developers. I share tutorials, tools, and updates that help you code smarter, ship faster, and grow your skills with clear, practical content.",
       "stack": "Typescript | Astro | Listmonk | .NET"
     },
