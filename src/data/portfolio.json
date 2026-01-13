@@ -1,0 +1,87 @@
+{
+  "profile": {
+    "name": "Rafael Jaén Profile",
+    "avatar": "/hero.png",
+    "title": "Hi, I'm Rafael — <span class=\"text-secondary\">A Full Stack web developer.</span>",
+    "description": "Welcome to my little corner of the internet.<br>I’m a software engineer and indie maker from Andalucía, Spain.<br>Currently building in public <a href=\"https://codeinspain.com?ref=rafita.me\" target=\"_blank\" class=\"text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors\">codeinspain</a> and <a href=\"https://dotnet.today?ref=rafita.me\" target=\"_blank\" class=\"text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors\">dotnet.today</a>.",
+    "socialLinks": [
+      { "name": "github", "url": "https://github.com/rafitajaen" },
+      { "name": "x", "url": "https://x.com/rafitajaen" },
+      { "name": "linkedin", "url": "https://linkedin.com/in/rafitajaen" }
+    ],
+    "heroButtons": [
+      { "icon": "x", "text": "Follow me on X", "url": "https://x.com/rafitajaen" },
+      { "icon": "github", "text": "Show me the code!", "url": "https://github.com/rafitajaen/me", "highlight": true }
+    ]
+  },
+  "projects": [
+    {
+      "name": "code<span class=\"text-emerald-400\">in</span>spain<span class=\"text-zinc-500 font-light\">.com</span>",
+      "status": "Launched",
+      "statusColor": "emerald",
+      "url": "https://codeinspain.com/?ref=rafita.me",
+      "description": "A selective tech job board for Spain’s developer community. I highlight only the positions that meet clear standards of transparency, culture, and growth potential. Spend less time searching and more time advancing your career.",
+      "stack": "Typescript | .NET | MVC | Vite | Postgres | Redis | MJML | Docker"
+    },
+    {
+      "name": "dotnet<span class=\"text-zinc-500 font-light\">.today</span>",
+      "status": "Launched",
+      "statusColor": "emerald",
+      "url": "https://dotnet.today/?ref=rafita.me",
+      "description": "Weekly newsletter and blog for .NET developers. I share tutorials, tools, and updates that help you code smarter, ship faster, and grow your skills with clear, practical content.",
+      "stack": "Typescript | Astro | Listmonk | .NET"
+    },
+    {
+      "name": "indiemakers<span class=\"text-zinc-500 font-light\">.io</span>",
+      "status": "Private beta",
+      "statusColor": "orange",
+      "url": null,
+      "description": "Community platform for solopreneurs and indie makers to showcase products, share resources, and get feedback.",
+      "stack": "Typescript | .NET | MVC | Postgres | Docker"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelance",
+      "role": "Solopreneur / Independent Developer",
+      "location": "Remote",
+      "date": "Oct 2025 - Present (1 mo)",
+      "badge": "Working",
+      "icon": null,
+      "description": "I’m independently designing and developing full-stack web projects, focusing on scalable architecture. I manage end-to-end product development, from idea validation to deployment and optimization. This work allows me to explore new frameworks, tools, and approaches while building impactful digital products.",
+      "stack": "TypeScript | .NET | MVC | Vite | SCSS | Docker | PostgreSQL | Redis | Figma"
+    },
+    {
+      "company": "Surcontrol",
+      "role": "Technical Lead",
+      "location": "Spain, On-site",
+      "date": "Jan 2024 - Oct 2025 (1 yrs 10 mo)",
+      "icon": "surcontrol",
+      "description": "I worked as a Full Stack Developer and Technical Leader at Surcontrol, contributing to the development of innovative SaaS solutions for industrial automation. Leading a skilled team, I focus on collaboration, technical excellence, and scalable architecture.",
+      "previousRole": {
+        "title": "Full Stack Web Developer",
+        "date": "Nov 2022 - Jan 2024 (1 yrs 3 mo)",
+        "description": "I contributed to the development of a SaaS platform for industrial automation, working on asset monitoring, data analysis, and migrating from monolithic to microservices architecture."
+      },
+      "stack": "Vanilla TypeScript | .NET | MVC | Webpack | SCSS | Docker | PostgreSQL"
+    },
+    {
+      "company": "esmonet",
+      "role": "Full Stack Developer",
+      "location": "Remote",
+      "date": "Nov 2021 - Nov 2022 (1 yr)",
+      "icon": "esmonet",
+      "description": "At Esmonet, I was responsible for the development and scaling of a SaaS platform serving the online printing industry. My work ensured the platform could handle heavy traffic and maintain usability across devices.",
+      "stack": "Vue | TypeScript | Quasar | Pinia | .NET | SQL Server | Entity Framework"
+    },
+    {
+      "company": "La Casa Sibarita",
+      "role": "Front-End Developer",
+      "location": "Remote",
+      "date": "Feb 2021 - Nov 2022 (10 mo)",
+      "icon": "sibarita",
+      "description": "During my time at La Casa Sibarita, I focused on front-end development, content management, and SEO optimization to improve web visibility and performance.",
+      "stack": "JavaScript | WordPress | Ahrefs | Semrush | Google Search Console"
+    }
+  ]
+}
