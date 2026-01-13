@@ -20,6 +20,14 @@ export default {
   },
   "projects": [
     {
+      "name": "boilerplatr<span class=\"text-zinc-500 font-light\">.com</span>",
+      "status": "Launched",
+      "statusColor": "emerald",
+      "url": "https://boilerplatr.com",
+      "description": "A curated directory of starting kits and codebases for building apps and SaaS. It handles the base setup, allowing you to skip repetitive parts like auth and payments, so you can move straight to generating revenue.",
+      "stack": "Next.js | React | Tailwind | shadcn/ui | PostgreSQL | Prisma | Better Auth | Stripe"
+    },
+    {
       "name": "open<span class=\"text-emerald-600\">to</span>dev<span class=\"text-zinc-500 font-light\">.com</span>",
       "status": "Beta",
       "statusColor": "orange",
