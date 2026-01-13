@@ -9,7 +9,7 @@ export default {
     "name": "Rafael Jaén Profile",
     "avatar": "/hero.png",
     "title": "Hi, I'm Rafael — <span class=\"text-secondary\">A Full Stack web developer.</span>",
-    "description": `Welcome to my little corner of the internet.<br>I’m a software engineer and indie maker from Andalucía, Spain.<br>Currently building in public <a href="https://opentodev.com?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">opentodev.com</a> and <a href="https://boilerplatr.com?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">boilerplatr.com</a>.`,
+    "description": `Welcome to my little corner of the internet.<br>I’m a software engineer and indie maker from Andalucía, Spain.<br>Currently building in public <a href="https://opentodev.com?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors underline">opentodev.com</a> and <a href="https://boilerplatr.com?ref=${ref}" target="_blank" class="text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors underline">boilerplatr.com</a>.`,
     "socialLinks": [
       { "name": "github", "url": "https://github.com/rafitajaen" },
       { "name": "x", "url": "https://x.com/rafitajaen" },
