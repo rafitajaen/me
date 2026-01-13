@@ -45,7 +45,8 @@
       "company": "Freelance",
       "role": "Solopreneur / Independent Developer",
       "location": "Remote",
-      "date": "Oct 2025 - Present (1 mo)",
+      "startDate": "2025-10",
+      "endDate": null,
       "badge": "Working",
       "icon": null,
       "description": "I’m independently designing and developing full-stack web projects, focusing on scalable architecture. I manage end-to-end product development, from idea validation to deployment and optimization. This work allows me to explore new frameworks, tools, and approaches while building impactful digital products.",
@@ -55,12 +56,14 @@
       "company": "Surcontrol",
       "role": "Technical Lead",
       "location": "Spain, On-site",
-      "date": "Jan 2024 - Oct 2025 (1 yrs 10 mo)",
+      "startDate": "2024-01",
+      "endDate": "2025-10",
       "icon": "surcontrol",
       "description": "I worked as a Full Stack Developer and Technical Leader at Surcontrol, contributing to the development of innovative SaaS solutions for industrial automation. Leading a skilled team, I focus on collaboration, technical excellence, and scalable architecture.",
       "previousRole": {
         "title": "Full Stack Web Developer",
-        "date": "Nov 2022 - Jan 2024 (1 yrs 3 mo)",
+        "startDate": "2022-11",
+        "endDate": "2024-01",
         "description": "I contributed to the development of a SaaS platform for industrial automation, working on asset monitoring, data analysis, and migrating from monolithic to microservices architecture."
       },
       "stack": "Vanilla TypeScript | .NET | MVC | Webpack | SCSS | Docker | PostgreSQL"
@@ -69,7 +72,8 @@
       "company": "esmonet",
       "role": "Full Stack Developer",
       "location": "Remote",
-      "date": "Nov 2021 - Nov 2022 (1 yr)",
+      "startDate": "2021-11",
+      "endDate": "2022-11",
       "icon": "esmonet",
       "description": "At Esmonet, I was responsible for the development and scaling of a SaaS platform serving the online printing industry. My work ensured the platform could handle heavy traffic and maintain usability across devices.",
       "stack": "Vue | TypeScript | Quasar | Pinia | .NET | SQL Server | Entity Framework"
@@ -78,7 +82,8 @@
       "company": "La Casa Sibarita",
       "role": "Front-End Developer",
       "location": "Remote",
-      "date": "Feb 2021 - Nov 2022 (10 mo)",
+      "startDate": "2021-02",
+      "endDate": "2021-11",
       "icon": "sibarita",
       "description": "During my time at La Casa Sibarita, I focused on front-end development, content management, and SEO optimization to improve web visibility and performance.",
       "stack": "JavaScript | WordPress | Ahrefs | Semrush | Google Search Console"
